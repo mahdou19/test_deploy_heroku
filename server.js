@@ -16,6 +16,6 @@ app.get("/", function(req, res){
     res.send("Hello Worl !")
 })
 
-app.listen(process.env.PORT ||  8080, () => {
+app.listen(process.env.PORT || 8080, () => {
     console.log(`start at ${process.env.hostname}:${process.env.PORT}`);
 });
